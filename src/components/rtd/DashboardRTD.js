@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Clock from "../rtds/Clock";
 import AboutRTD from "./AboutRTD";
 import AboutRTDCC from "./AboutRTDCC";
@@ -39,13 +40,33 @@ function DashboardRTD() {
             data-aos-delay="200"
           >
             {" "}
-            <img
-              src="assets/img/home-img.png"
-              class="img-fluid animated"
-              alt=""
-            />
+            <Link to="/rtd-services">
+              <img
+                id="grow"
+                src="assets/img/rtd_assets/buildings.png"
+                class="img-fluid"
+                height="300px"
+                alt=""
+              />
+            </Link>
+            <Link to="/deod">
+              <img
+                id="grow"
+                src="assets/img/rtd_assets/single_building.png"
+                class="img-fluid"
+                height="300px"
+                alt=""
+              />
+            </Link>
           </div>
         </div>
+
+        {/* <div>
+          <h2>
+            Real-Time Data team is digitalizing the data journey in agile way
+            like never before
+          </h2>
+        </div> */}
       </div>
     </section>
   );

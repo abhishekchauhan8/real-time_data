@@ -538,6 +538,11 @@ h1, h2, h3, h4, h5, h6 {
 #home .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+} 
 @media (max-width: 991px) {
   #home {
     height: 100vh;

@@ -37,7 +37,7 @@ function DashboardRTDS() {
           >
             {" "}
             <img
-              src="assets/img/home-img.png"
+              src="assets/img/rtd_assets/business-salesman.gif"
               class="img-fluid animated"
               alt=""
             />

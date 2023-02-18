@@ -123,13 +123,9 @@ function App() {
     <React.Fragment>
       <Header />
       <Routes>
-        <Route path="/real-time_data" exact element={<RTDMain />} />
+        <Route path="/" exact element={<RTDMain />} />
 
-        <Route
-          path="/real-time_data/real-time_data_services"
-          exact
-          element={<ServicesMain />}
-        />
+        <Route path="/rtd-services" exact element={<ServicesMain />} />
 
         <Route path="/catalyst" exact element={<Catalyst />} />
         <Route path="/downstream" exact element={<Downstream />} />
@@ -175,7 +171,7 @@ function App() {
         <Route path="/tega" exact element={<TEGA />} />
         <Route path="/windtopia" exact element={<Windtopia />} />
 
-        <Route path="/" exact element={<Navigate to="real-time_data" />} />
+        <Route path="/" exact element={<Navigate to="/" />} />
         <Route element={<Navigate to="not-found" />} />
       </Routes>
       <Footer />
