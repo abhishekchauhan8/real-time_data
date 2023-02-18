@@ -1,0 +1,103 @@
+function AboutRTDCC() {
+  return (
+    <section id="about" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-8 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
+            <div class="content">
+              <h3>
+                Real-Time Data & Asset Management Capability Center is a part of{" "}
+                <strong>Shell's overall strategy & Roadmap</strong>
+              </h3>
+              <p>
+                {" "}
+                Real-Time Data & Asset Management is a world class capability
+                center for software engineering professionals to drive tangible
+                business value and technical ingenuity in the energy sector.
+              </p>
+            </div>
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a
+                    data-bs-toggle="collapse"
+                    class="collapse"
+                    data-bs-target="#accordion-list-1"
+                  >
+                    <span>01</span> Ready made templates, tools & techniques to
+                    cater all operational needs{" "}
+                    <i class="bx bx-chevron-down icon-show"></i>
+                    <i class="bx bx-chevron-up icon-close"></i>
+                  </a>
+                  <div
+                    id="accordion-list-1"
+                    class="collapse show"
+                    data-bs-parent=".accordion-list"
+                  >
+                    <p>
+                      {" "}
+                      Here the business can find templates that can be brought
+                      iunto use with minimum efforts
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <a
+                    data-bs-toggle="collapse"
+                    data-bs-target="#accordion-list-2"
+                    class="collapsed"
+                  >
+                    <span>02</span> Refer to Use-cases to find solution that
+                    suits business requirements best{" "}
+                    <i class="bx bx-chevron-down icon-show"></i>
+                    <i class="bx bx-chevron-up icon-close"></i>
+                  </a>
+                  <div
+                    id="accordion-list-2"
+                    class="collapse"
+                    data-bs-parent=".accordion-list"
+                  >
+                    <p> Choose the best-fit solutions that are easy to find</p>
+                  </div>
+                </li>
+                <li>
+                  <a
+                    data-bs-toggle="collapse"
+                    data-bs-target="#accordion-list-3"
+                    class="collapsed"
+                  >
+                    <span>03</span> Upload solutions that can be templatized &
+                    addded for others to consider{" "}
+                    <i class="bx bx-chevron-down icon-show"></i>
+                    <i class="bx bx-chevron-up icon-close"></i>
+                  </a>
+                  <div
+                    id="accordion-list-3"
+                    class="collapse"
+                    data-bs-parent=".accordion-list"
+                  >
+                    <p>
+                      {" "}
+                      Believe that we need to make some changes? Help us improve
+                      with your content,
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 align-items-stretch order-1 order-lg-2 img"
+            style={{ backgroundImage: 'url("assets/img/why-us.png")' }}
+            data-aos="zoom-in"
+            data-aos-delay="150"
+          >
+            {" "}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default AboutRTDCC;
