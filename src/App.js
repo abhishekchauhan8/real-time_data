@@ -92,7 +92,7 @@ import React from "react";
 import { Route, Routes, Navigate } from "react-router-dom";
 import ServicesMain from "./components/rtds/ServicesMain";
 import RTDMain from "./components/rtd/RTDMain";
-import AboutPI from "./components/rtds/AboutPI";
+import AboutPI from "./components/rtds/pi_portal/AboutPI";
 import Catalyst from "./components/rtds/lob/Catalyst";
 import Downstream from "./components/rtds/lob/Downstream";
 import EnergyAndRenewables from "./components/rtds/lob/EnergyAndRenewables";
@@ -117,6 +117,11 @@ import TEBA from "./components/rtds/use_cases/TEBA";
 import TEGA from "./components/rtds/use_cases/TEGA";
 import Windtopia from "./components/rtds/use_cases/Windtopia";
 import Footer from "./components/Footer";
+import DIY from "./components/rtds/DIY";
+import ReadyMadeSolutions from "./components/rtds/ReadyMadeSolutions";
+import Consultancy from "./components/rtds/Consultancy";
+import Trainings from "./components/rtds/Trainings";
+import PIPortal from "./components/rtds/pi_portal/PIPortal";
 
 function App() {
   return (
@@ -125,7 +130,26 @@ function App() {
       <Routes>
         <Route path="/" exact element={<RTDMain />} />
 
-        <Route path="/rtd-services" exact element={<ServicesMain />} />
+        <Route path="/rtd-coe" exact element={<ServicesMain />} />
+
+        <Route path="/rtd-coe/services-diy" exact element={<DIY />} />
+        <Route
+          path="/rtd-coe/services-ready_made_solutions"
+          exact
+          element={<ReadyMadeSolutions />}
+        />
+        <Route
+          path="/rtd-coe/services-consultancy"
+          exact
+          element={<Consultancy />}
+        />
+        <Route
+          path="/rtd-coe/services-trainings"
+          exact
+          element={<Trainings />}
+        />
+
+        <Route path="/rtd-coe/products-aveva_pi" exact element={<PIPortal />} />
 
         <Route path="/catalyst" exact element={<Catalyst />} />
         <Route path="/downstream" exact element={<Downstream />} />

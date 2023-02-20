@@ -24,35 +24,35 @@ function AboutPI() {
             </p>
             <ul>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Data collection
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Enhanced Data Storage
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Contextualization of Assets
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Advanced Visualization
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Equipment/Asset monitoring
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Advanced Analytics
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Manual Data Entry using mobile devices
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Integration with multiple interfaces
               </li>
             </ul>
@@ -65,26 +65,34 @@ function AboutPI() {
             </p>
             <ul>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Remote Asset Surveillance
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Data Engineering
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Machines Learning
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Proactive Technical monitoring
               </li>
               <li>
-                <i class="ri-check-double-line"></i>
+                {/* <i class="ri-check-double-line"></i> */}
                 Exception Based Surveillance
               </li>
             </ul>
+
+            <p>
+              For more details on OSIsoft PI, visit{" "}
+              <a href="https://www.osisoft.com/pi-system/" target="_blank">
+                AVEVA
+              </a>
+              's official website.
+            </p>
           </div>
 
           <div class="col-lg-7 pt-4 pt-lg-0">

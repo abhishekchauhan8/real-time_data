@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Services() {
   return (
     <section id="services" class="services section-bg">
@@ -12,62 +14,73 @@ function Services() {
             data-aos="zoom-in"
             data-aos-delay="100"
           >
-            <div class="icon-box">
-              <div class="icon">
-                <i class="bx bxl-dribbble"></i>
+            <Link to="/rtd-coe/services-consultancy">
+              <div class="icon-box">
+                <div class="icon">
+                  <i class="bx bxl-dribbble"></i>
+                </div>
+                <h4>
+                  <a href="">Consultancy</a>
+                </h4>
+                <p>
+                  Stuck somewhere ? Consult without wasting single more second.
+                </p>
               </div>
-              <h4>
-                <a href="">PI Vision</a>
-              </h4>
-              <p>Get templatized PI Vision displays at ease of clicks</p>
-            </div>
+            </Link>
           </div>
           <div
             class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
             data-aos="zoom-in"
             data-aos-delay="200"
           >
-            <div class="icon-box">
-              <div class="icon">
-                <i class="bx bx-file"></i>
+            <Link to="/rtd-coe/services-ready_made_solutions">
+              <div class="icon-box">
+                <div class="icon">
+                  <i class="bx bx-file"></i>
+                </div>
+                <h4>
+                  <a href="">Ready-Made Solutions</a>
+                </h4>
+                <p>Get the operations started hassle-free.</p>
               </div>
-              <h4>
-                <a href="">PI AF</a>
-              </h4>
-              <p>Get templatized PI Asset Framework at ease of clicks</p>
-            </div>
+            </Link>
           </div>
+
           <div
             class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
             data-aos="zoom-in"
             data-aos-delay="300"
           >
-            <div class="icon-box">
-              <div class="icon">
-                <i class="bx bx-tachometer"></i>
+            {" "}
+            <Link to="/rtd-coe/services-diy">
+              <div class="icon-box">
+                <div class="icon">
+                  <i class="bx bx-tachometer"></i>
+                </div>
+                <h4>
+                  <a href="">DIY</a>
+                </h4>
+                <p>Help yourself using templatized solutions</p>
               </div>
-              <h4>
-                <a href="">PI AF Analytics</a>
-              </h4>
-              <p>Get templatized PI AF Analytics at ease of clicks</p>
-            </div>
+            </Link>
           </div>
+
           <div
             class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0"
             data-aos="zoom-in"
             data-aos-delay="300"
           >
-            <div class="icon-box">
-              <div class="icon">
-                <i class="bx bx-layer"></i>
+            <Link to="/rtd-coe/services-trainings">
+              <div class="icon-box">
+                <div class="icon">
+                  <i class="bx bx-layer"></i>
+                </div>
+                <h4>
+                  <a href="">Trainings</a>
+                </h4>
+                <p>Get on-site or online training as and when required.</p>
               </div>
-              <h4>
-                <a href="">PI Web API & ML</a>
-              </h4>
-              <p>
-                PI Web API services and Manual Logger services launching soon...
-              </p>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

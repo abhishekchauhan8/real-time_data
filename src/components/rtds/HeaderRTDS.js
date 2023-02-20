@@ -1,7 +1,8 @@
-import NavBarRTD from "./rtd/NavBarRTD";
-import NavBar from "./rtds/NavBarRTDS";
+// import NavBar from "./rtds/NavBarRTDS";
 
-function Header() {
+import NavBar from "./NavBarRTDS";
+
+function HeaderRTDS() {
   return (
     <header id="header" class="fixed-top ">
       <div class="container d-flex align-items-center">
@@ -15,10 +16,10 @@ function Header() {
             alt=""
           />
         </a>
-        <NavBarRTD />
+        <NavBar />
       </div>
     </header>
   );
 }
 
-export default Header;
+export default HeaderRTDS;

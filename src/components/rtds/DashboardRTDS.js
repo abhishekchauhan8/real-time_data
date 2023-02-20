@@ -3,31 +3,31 @@ import Clock from "./Clock";
 function DashboardRTDS() {
   return (
     <section id="home" class="d-flex align-items-center">
-      <div class="container">
+      <div class="container3">
         <div class="row">
           <div
             class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <h1>Better Solutions for Better Operations 2</h1>
+            <h1>Real-Time Data CoE</h1>
+
             <h2>
-              Real-Time Data team is digitalizing the data journey in agile way
-              like never before
+              We are literally the Center of Excellence. From Acquisition to
+              Delivery, we cover all aspects.
             </h2>
             <div class="d-flex justify-content-center justify-content-lg-start">
               {" "}
-              {/* <a href="#about" class="btn-get-started scrollto">
-                Get Started
+              <a href="#why-us" class="btn-get-started scrollto">
+                RTD Services
               </a>{" "}
               <a
-                href="https://www.youtube.com/watch?v=PSq7sDBeKxA"
+                href="https://www.youtube.com/watch?v=8pQKh31PGvU"
                 class="glightbox btn-watch-video"
               >
                 <i class="bi bi-play-circle"></i>
-                <span>Watch Video</span>
-              </a> */}
-              <Clock />
+                <span>Take a Tour</span>
+              </a>
             </div>
           </div>
           <div
@@ -38,7 +38,7 @@ function DashboardRTDS() {
             {" "}
             <img
               src="assets/img/rtd_assets/business-salesman.gif"
-              class="img-fluid animated"
+              class="img-fluid2 animated"
               alt=""
             />
           </div>

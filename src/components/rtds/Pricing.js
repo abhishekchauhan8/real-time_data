@@ -9,7 +9,7 @@ function Pricing() {
         <div class="row">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="box">
-              <h3>Fixed Plan</h3>
+              <h3>Solution Based</h3>
               <h4>
                 <sup>$</sup>***<span>per year</span>
               </h4>
@@ -43,7 +43,7 @@ function Pricing() {
             data-aos-delay="200"
           >
             <div class="box featured">
-              <h3>Licensing Plan</h3>
+              <h3>Time-Based</h3>
               <h4>
                 <sup>$</sup>***<span>per month</span>
               </h4>
@@ -75,7 +75,7 @@ function Pricing() {
             data-aos-delay="300"
           >
             <div class="box">
-              <h3>Resources Plan</h3>
+              <h3>DIY Packages</h3>
               <h4>
                 <sup>$</sup>***<span>per month</span>
               </h4>

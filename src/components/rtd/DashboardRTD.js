@@ -16,8 +16,8 @@ function DashboardRTD() {
           >
             <h1>Better Solutions for Better Operations</h1>
             <h2>
-              Real-Time Data team is digitalizing the data journey in agile way
-              like never before
+              Real-Time team is digitalizing the data journey in agile way like
+              never before
             </h2>
             <div class="d-flex justify-content-center justify-content-lg-start">
               {" "}
@@ -40,7 +40,7 @@ function DashboardRTD() {
             data-aos-delay="200"
           >
             {" "}
-            <Link to="/rtd-services">
+            <Link to="/rtd-coe">
               <img
                 id="grow"
                 src="assets/img/rtd_assets/buildings.png"
@@ -49,6 +49,17 @@ function DashboardRTD() {
                 alt=""
               />
             </Link>
+            <div class="underMonitoring">
+              <Link to="/monitoring">
+                <img
+                  id="grow"
+                  src="assets/img/rtd_assets/loader-inner3.png"
+                  class="imgMonitoring"
+                  height="300px"
+                  alt=""
+                />
+              </Link>
+            </div>
             <Link to="/deod">
               <img
                 id="grow"

@@ -1,4 +1,4 @@
-import AboutPI from "./AboutPI";
+import AboutPI from "./pi_portal/AboutPI";
 import AboutPIServices from "./AboutPIServices";
 
 function Overview() {

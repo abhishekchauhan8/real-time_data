@@ -1,6 +1,6 @@
 function LOB() {
   return (
-    <section id="clients" class="clients section-bg">
+    <section id="clients" class="clients">
       <div class="container">
         <div class="row" data-aos="zoom-in">
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">

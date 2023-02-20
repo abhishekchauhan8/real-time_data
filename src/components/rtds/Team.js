@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Team() {
   return (
     <section id="team" class="team section-bg">
@@ -490,6 +492,18 @@ function Team() {
             </div>
           </div>
         </div>
+        {/* <div class="section-title textPadding">
+          <p>
+            New Joinee to the Real Time Data CoE ? Get started{" "}
+            <Link to="/rtd-coe/new_joinee">here</Link>.
+          </p>
+        </div> */}
+        <Link
+          to="/rtd-coe/new_joinee"
+          class="btn-get-started scrollto"
+        >
+          New Joinee to the Real Time Data CoE ? Get started here.
+        </Link>{" "}
       </div>
     </section>
   );

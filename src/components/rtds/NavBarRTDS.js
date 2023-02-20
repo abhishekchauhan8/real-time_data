@@ -13,6 +13,12 @@ function NavBar() {
         </li>
 
         {/* <li>
+          <a class="nav-link scrollto active" href="#home">
+            Home
+          </a>
+        </li> */}
+
+        {/* <li>
           <a class="nav-link scrollto" href="#about">
             Overview
           </a>
@@ -52,7 +58,7 @@ function NavBar() {
           </a>
         </li> */}
 
-        <li class="dropdown">
+        {/* <li class="dropdown">
           <a href="#">
             <span>Line of Business</span> <i class="bi bi-chevron-down"></i>
           </a>
@@ -133,6 +139,47 @@ function NavBar() {
             </li>
             <li>
               <Link to="/windtopia">Windtopia</Link>
+            </li>
+          </ul>
+        </li> */}
+
+        <li class="dropdown">
+          <Link href="#">
+            <span>Products</span> <i class="bi bi-chevron-down"></i>
+          </Link>
+          <ul>
+            <li class="dropdown">
+              <Link href="#">
+                <span>Data Historians</span> <i class="bi bi-chevron-down"></i>
+              </Link>
+              <ul>
+                <li>
+                  <Link to="/rtd-coe/products-aveva_pi">Aveva PI</Link>
+                </li>
+                <li>
+                  <Link to="/rtd-coe/products-honeywell">Honeywell</Link>
+                </li>
+                <li>
+                  <Link to="/rtd-coe/products-thermo_scientific">
+                    Thermo Scientific
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/rtd-coe/products-tieto_evry">tieto EVRY</Link>
+                </li>
+                <li>
+                  <Link to="/rtd-coe/products-yokoawa">Yokoawa</Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link to="/cemis">SSIP</Link>
+            </li>
+            <li>
+              <Link to="/advancesurveillance">IRMS</Link>
+            </li>
+            <li>
+              <Link to="/assetperformance">Seeq</Link>
             </li>
           </ul>
         </li>

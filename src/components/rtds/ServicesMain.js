@@ -10,24 +10,22 @@ import Pricing from "./Pricing";
 import Services from "./Services";
 import Team from "./Team";
 import RTDCC from "../rtd/RTD_cc";
-import Header from "../Header";
+import HeaderRTDS from "./HeaderRTDS";
 
 function ServicesMain() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <HeaderRTDS />
       <Dashboard />
 
       <Overview />
       <AboutPIServices />
       <AboutPIServices_Why />
-      <AboutPIServices_Journey />
-      <AboutPIServices_Framework />
-
-      <RTDCC />
 
       <Services />
-      {/* <Pricing /> */}
+      <Pricing />
+      <AboutPIServices_Framework />
+      <AboutPIServices_Journey />
       <Team />
       {/* <FAQs /> */}
       <Contact />
