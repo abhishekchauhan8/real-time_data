@@ -122,6 +122,7 @@ import ReadyMadeSolutions from "./components/rtds/ReadyMadeSolutions";
 import Consultancy from "./components/rtds/Consultancy";
 import Trainings from "./components/rtds/Trainings";
 import PIPortal from "./components/rtds/pi_portal/PIPortal";
+import Honeywell from "./components/rtds/honeywell";
 
 function App() {
   return (
@@ -150,6 +151,7 @@ function App() {
         />
 
         <Route path="/rtd-coe/products-aveva_pi" exact element={<PIPortal />} />
+        <Route path="/rtd-coe/products-honeywell" exact element={<Honeywell />} />
 
         <Route path="/catalyst" exact element={<Catalyst />} />
         <Route path="/downstream" exact element={<Downstream />} />
