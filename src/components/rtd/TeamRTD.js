@@ -10,7 +10,7 @@ function TeamRTD() {
           </p>
         </div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -49,7 +49,7 @@ function TeamRTD() {
         </div>
 
         <div class="row">
-          <div class="col-lg-6 mt-4">
+          <div class="col-lg-4 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -63,9 +63,9 @@ function TeamRTD() {
                 />
               </div>
               <div class="member-info">
-                <h4>Rohit K Rai</h4>
-                <span>Application Specialist</span>
-                <p>Real-Time Center of Excellence</p>
+                <h4>Prabhat Mishra</h4>
+                <span>Real Time Data CC Lead</span>
+                <p>Real-Time & Asset Management CoE</p>
                 <div class="social">
                   {" "}
                   {/* <a href="">
@@ -86,7 +86,7 @@ function TeamRTD() {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
+          <div class="col-lg-4 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -100,9 +100,9 @@ function TeamRTD() {
                 />
               </div>
               <div class="member-info">
-                <h4>Ananya Bhakat</h4>
-                <span>PI Vision SME</span>
-                <p>Real-Time Center of Excellence</p>
+                <h4>Akshat Garg</h4>
+                <span>Proactive Monitoring CC Lead</span>
+                <p>Real-Time & Asset Management CoE</p>
                 <div class="social">
                   {" "}
                   {/* <a href="">
@@ -123,7 +123,7 @@ function TeamRTD() {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
+          <div class="col-lg-4 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -137,9 +137,9 @@ function TeamRTD() {
                 />
               </div>
               <div class="member-info">
-                <h4>Prabhat Muneshwar</h4>
-                <span>Web API SME</span>
-                <p>Real-Time Center of Excellence</p>
+                <h4>Bhadresh Rajashekaraiah</h4>
+                <span>Asset Management System CC Lead</span>
+                <p>Real-Time & Asset Management CoE</p>
                 <div class="social">
                   {" "}
                   {/* <a href="">
@@ -160,7 +160,7 @@ function TeamRTD() {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
+          <div class="col-lg-4 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -174,9 +174,9 @@ function TeamRTD() {
                 />
               </div>
               <div class="member-info">
-                <h4>Meghana S</h4>
-                <span>Tag Configuration Tool SME</span>
-                <p>Real-Time Center of Excellence</p>
+                <h4>Ishan Khare</h4>
+                <span>Real-time & Asset Technical Data CC Lead</span>
+                <p>Real-Time & Asset Management CoE</p>
                 <div class="social">
                   {" "}
                   {/* <a href="">
@@ -197,44 +197,7 @@ function TeamRTD() {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
-            <div
-              class="member d-flex align-items-start"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <div class="pic">
-                <img
-                  src="assets/img/team/team-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="member-info">
-                <h4>Kushal Ramteke</h4>
-                <span>Manual Logger SME</span>
-                <p>Real-Time Center of Excellence</p>
-                <div class="social">
-                  {" "}
-                  {/* <a href="">
-                    <i class="ri-twitter-fill"></i>
-                  </a>{" "}
-                  <a href="">
-                    <i class="ri-facebook-fill"></i>
-                  </a>{" "}
-                  <a href="">
-                    <i class="ri-instagram-fill"></i>
-                  </a>{" "} */}
-                  <a href="">
-                    {" "}
-                    <i class="ri-linkedin-box-fill"></i>{" "}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
+          <div class="col-lg-4 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -248,9 +211,9 @@ function TeamRTD() {
                 />
               </div>
               <div class="member-info">
-                <h4>Sudeshna Banerjee</h4>
-                <span>Software Engineer</span>
-                <p>Real-Time Center of Excellence</p>
+                <h4>Prasanna Jayabalan</h4>
+                <span>Labs, R&D and AI CC Lead</span>
+                <p>Real-Time & Asset Management CoE</p>
                 <div class="social">
                   {" "}
                   {/* <a href="">
@@ -271,7 +234,7 @@ function TeamRTD() {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
+          <div class="col-lg-4 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -285,9 +248,9 @@ function TeamRTD() {
                 />
               </div>
               <div class="member-info">
-                <h4>Shafquet Iftekhar</h4>
-                <span>Azure Specialist</span>
-                <p>Real-Time Center of Excellence</p>
+                <h4>Prasanna KS Vainatheya</h4>
+                <span>Advanced Process Controls CC Lead</span>
+                <p>Real-Time & Asset Management CoE</p>
                 <div class="social">
                   {" "}
                   {/* <a href="">
@@ -308,7 +271,7 @@ function TeamRTD() {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
+          <div class="col-lg-4 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -322,9 +285,9 @@ function TeamRTD() {
                 />
               </div>
               <div class="member-info">
-                <h4>Felix Fikke</h4>
-                <span>IoT Specialist</span>
-                <p>Real-Time Center of Excellence</p>
+                <h4>Praveen Ramashetty</h4>
+                <span>Energy Components CC Lead</span>
+                <p>Real-Time & Asset Management CoE</p>
                 <div class="social">
                   {" "}
                   {/* <a href="">
@@ -345,7 +308,7 @@ function TeamRTD() {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
+          <div class="col-lg-4 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -359,9 +322,9 @@ function TeamRTD() {
                 />
               </div>
               <div class="member-info">
-                <h4>Raja A Vadivel</h4>
-                <span>Software Engineer</span>
-                <p>Real-Time Center of Excellence</p>
+                <h4>Anand Thorat</h4>
+                <span>Senior Consultant APC SE</span>
+                <p>Real-Time & Asset Management CoE</p>
                 <div class="social">
                   {" "}
                   {/* <a href="">
@@ -382,7 +345,7 @@ function TeamRTD() {
             </div>
           </div>
 
-          <div class="col-lg-6 mt-4">
+          <div class="col-lg-4 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -396,9 +359,9 @@ function TeamRTD() {
                 />
               </div>
               <div class="member-info">
-                <h4>Abhishek Chauhan</h4>
-                <span>Software Engineer</span>
-                <p>Real-Time Center of Excellence</p>
+                <h4>Carlos Veijer</h4>
+                <span>Senior Consultant Real-Time Data SE</span>
+                <p>Real-Time & Asset Management CoE</p>
                 <div class="social">
                   {" "}
                   {/* <a href="">
@@ -418,7 +381,8 @@ function TeamRTD() {
               </div>
             </div>
           </div>
-          <div class="col-lg-6 mt-4">
+
+          <div class="col-lg-4 mt-4">
             <div
               class="member d-flex align-items-start"
               data-aos="zoom-in"
@@ -432,9 +396,157 @@ function TeamRTD() {
                 />
               </div>
               <div class="member-info">
-                <h4>Mayank Agrawal</h4>
-                <span>Software Engineer</span>
-                <p>Real-Time Center of Excellence</p>
+                <h4>Evangelos Theocharous</h4>
+                <span>Data Engineer</span>
+                <p>Real-Time & Asset Management CoE</p>
+                <div class="social">
+                  {" "}
+                  {/* <a href="">
+                    <i class="ri-twitter-fill"></i>
+                  </a>{" "}
+                  <a href="">
+                    <i class="ri-facebook-fill"></i>
+                  </a>{" "}
+                  <a href="">
+                    <i class="ri-instagram-fill"></i>
+                  </a>{" "} */}
+                  <a href="">
+                    {" "}
+                    <i class="ri-linkedin-box-fill"></i>{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div
+              class="member d-flex align-items-start"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="pic">
+                <img
+                  src="assets/img/team/team-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="member-info">
+                <h4>Krishna Prasad</h4>
+                <span>Technical Consultant Proc Eng Software</span>
+                <p>Real-Time & Asset Management CoE</p>
+                <div class="social">
+                  {" "}
+                  {/* <a href="">
+                    <i class="ri-twitter-fill"></i>
+                  </a>{" "}
+                  <a href="">
+                    <i class="ri-facebook-fill"></i>
+                  </a>{" "}
+                  <a href="">
+                    <i class="ri-instagram-fill"></i>
+                  </a>{" "} */}
+                  <a href="">
+                    {" "}
+                    <i class="ri-linkedin-box-fill"></i>{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div
+              class="member d-flex align-items-start"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="pic">
+                <img
+                  src="assets/img/team/team-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="member-info">
+                <h4>Suseendar Rajaguru</h4>
+                <span>Senior Consultant Discipline Engineering</span>
+                <p>Real-Time & Asset Management CoE</p>
+                <div class="social">
+                  {" "}
+                  {/* <a href="">
+                    <i class="ri-twitter-fill"></i>
+                  </a>{" "}
+                  <a href="">
+                    <i class="ri-facebook-fill"></i>
+                  </a>{" "}
+                  <a href="">
+                    <i class="ri-instagram-fill"></i>
+                  </a>{" "} */}
+                  <a href="">
+                    {" "}
+                    <i class="ri-linkedin-box-fill"></i>{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div
+              class="member d-flex align-items-start"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="pic">
+                <img
+                  src="assets/img/team/team-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="member-info">
+                <h4>Marten Edelman</h4>
+                <span>Extended Team</span>
+                <p>Real-Time & Asset Management CoE</p>
+                <div class="social">
+                  {" "}
+                  {/* <a href="">
+                    <i class="ri-twitter-fill"></i>
+                  </a>{" "}
+                  <a href="">
+                    <i class="ri-facebook-fill"></i>
+                  </a>{" "}
+                  <a href="">
+                    <i class="ri-instagram-fill"></i>
+                  </a>{" "} */}
+                  <a href="">
+                    {" "}
+                    <i class="ri-linkedin-box-fill"></i>{" "}
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4">
+            <div
+              class="member d-flex align-items-start"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="pic">
+                <img
+                  src="assets/img/team/team-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="member-info">
+                <h4>Stefan de Ruijter</h4>
+                <span>Extended Team</span>
+                <p>Real-Time & Asset Management CoE</p>
                 <div class="social">
                   {" "}
                   {/* <a href="">

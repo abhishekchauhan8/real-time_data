@@ -493,8 +493,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .rtd .container2 {
   /* padding-top: 22px; */
-  width: 100vh;
- 
+  width: 100%;  
 }
 
 .rtd .rtdcc {
@@ -836,6 +835,36 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 
+#home .underBubble{
+  position: absolute;
+  left: 170px;
+  top: -70px;
+  z-index: -1;
+}
+
+#home .imgBubble{
+  vertical-align: middle;
+  width: 111px;
+  height: auto;
+}
+
+/* #home .animatedBubble {
+  animation: 1.5s linear infinite;
+}
+
+@keyframes animatedBubble {
+  0% {
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 0.7;
+  }
+
+  100% {
+      opacity: 0;
+  }
+} */
 
 #home .under1{
   position: absolute;
@@ -1214,6 +1243,115 @@ section {
   }
   
 }
+
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+.about-rt .content {
+  padding: 30px 40px 0 60px;
+}
+.about-rt .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+  text-align: justify;
+}
+.about-rt .content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.about-rt .content p {
+  font-size: 15px;
+  color: #848484;
+  text-align: justify;
+}
+.about-rt .img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.about-rt .accordion-list {
+  padding: 0 40px 60px 60px;
+}
+.about-rt .accordion-list ul {
+  padding: 0;
+  list-style: none;
+}
+.about-rt .accordion-list li + li {
+  margin-top: 15px;
+}
+.about-rt .accordion-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+.about-rt .accordion-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+  cursor: pointer;
+}
+.about-rt .accordion-list span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.about-rt .accordion-list i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.about-rt .accordion-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+.about-rt .accordion-list .icon-show {
+  display: none;
+}
+.about-rt .accordion-list a.collapsed {
+  color: #343a40;
+}
+.about-rt .accordion-list a.collapsed:hover {
+  color: #47b2e4;
+}
+.about-rt .accordion-list a.collapsed .icon-show {
+  display: inline-block;
+}
+.about-rt .accordion-list a.collapsed .icon-close {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .about-rt .content, .about-rt .accordion-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 992px) {
+  .about-rt .img {
+    min-height: 400px;
+  }
+  .about-rt .content {
+    padding-top: 30px;
+  }
+  .about-rt .accordion-list {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 575px) {
+  .about-rt .img {
+    min-height: 200px;
+  }
+  
+}
+
 
 
 

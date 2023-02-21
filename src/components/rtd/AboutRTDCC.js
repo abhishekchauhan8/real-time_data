@@ -1,9 +1,9 @@
 function AboutRTDCC() {
   return (
-    <section id="about" class="why-us section-bg">
+    <section id="about" class="about-rt section-bg">
       <div class="container-fluid" data-aos="fade-up">
         <div class="row">
-          <div class="col-lg-8 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1">
             <div class="content">
               <h3>
                 Real-Time Data & Asset Management Capability Center is a part of{" "}
@@ -87,7 +87,7 @@ function AboutRTDCC() {
             </div>
           </div>
           <div
-            class="col-lg-4 align-items-stretch order-1 order-lg-2 img"
+            class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
             style={{ backgroundImage: 'url("assets/img/why-us.png")' }}
             data-aos="zoom-in"
             data-aos-delay="150"

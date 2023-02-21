@@ -34,7 +34,6 @@ function DashboardRTD() {
               <Clock />
             </div>
           </div>
-
           {/* <div
             class="col-lg-6 order-1 order-lg-2 home-img"
             data-aos="zoom-in"
@@ -71,7 +70,6 @@ function DashboardRTD() {
               />
             </Link>
           </div> */}
-
           {/* <div
             class="col-lg-6 order-1 order-lg-2 home-img"
             data-aos="zoom-in"
@@ -88,7 +86,6 @@ function DashboardRTD() {
               />
             </Link>
           </div> */}
-
           <div
             class="col-lg-6 order-1 order-lg-2 home-img"
             data-aos="zoom-in"
@@ -204,6 +201,16 @@ function DashboardRTD() {
                   title="Advanced Processes"
                 />
               </Link>
+            </div>
+
+            <div class="underBubble" data-aos="zoom-in" data-aos-delay="200">
+              <img
+                src="assets/img/realtime_assets/chatbubble1.png"
+                class="imgBubble animated"
+                // height="300px"
+                alt=""
+                // title="Advanced Processes"
+              />
             </div>
           </div>
         </div>
