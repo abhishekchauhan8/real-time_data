@@ -151,7 +151,11 @@ function App() {
         />
 
         <Route path="/rtd-coe/products-aveva_pi" exact element={<PIPortal />} />
-        <Route path="/rtd-coe/products-honeywell" exact element={<Honeywell />} />
+        <Route
+          path="/rtd-coe/products-honeywell"
+          exact
+          element={<Honeywell />}
+        />
 
         <Route path="/catalyst" exact element={<Catalyst />} />
         <Route path="/downstream" exact element={<Downstream />} />
