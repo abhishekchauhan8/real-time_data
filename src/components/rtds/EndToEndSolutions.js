@@ -1,30 +1,31 @@
 import { Link } from "react-router-dom";
 
-function Trainings() {
+function EndToEndSolutions() {
   return (
     <div class="services2 topPadding">
       <div class="section-title">
-        <h1 class="heading1">Trainings</h1>
+        <h1 class="heading1">End-to-End Solutions</h1>
       </div>
 
       <div class="row">
         <div class="col-lg-6">
           <img
             class="sevicesPageImg1"
-            src={"assets/img/rtd_assets/consultancy1.jpg"}
+            src={"assets/img/rtd_assets/endtoendsolution1.jpg"}
             alt=""
           ></img>
         </div>
 
         <div class="col-lg-6">
           <h2 class="heading2">
-            Shell business landscape calls for new strategies, technological
-            innovation, and a holistic approach to the changing expectations of
-            end users. To thrive amidst change, you need a transformative
-            business strategy centered on your goal.
+            Real-time data solutions play a crucial role in all the lines of
+            businesses today. Digital transformation of our businesses requires
+            a holistic approach with intelligent solutions through
+            modernization, management and maintenance of all the stages of the
+            solutioning.
           </h2>
           <a href="#why-us" class="btn-get-started">
-            We do't train, we help
+            You dream it, we build it
           </a>{" "}
         </div>
       </div>
@@ -32,14 +33,14 @@ function Trainings() {
       <h1>Our Approach</h1>
       <img
         class="sevicesPageImg1"
-        src="assets/img/realtime_assets/RealTime.png"
+        src="assets/img/rtd_assets/endtoendsolution2.png"
       ></img>
 
       <div class="justGap">{""}</div>
 
       <h3>
         {" "}
-        <b>Thoughts that you may have:</b>
+        <b>Questions that you may have:</b>
       </h3>
       <ul>
         <li>
@@ -61,7 +62,7 @@ function Trainings() {
 
       <h3>
         {" "}
-        <b>How can RTD Consultancy Services help you?</b>
+        <b>How can RTD End-To-End Solutions Services help you?</b>
       </h3>
       <ul>
         <li>
@@ -71,15 +72,31 @@ function Trainings() {
         </li>
         <li>
           <i class="ri-check-double-line"></i>
-          Ideate, create, and deploy new business models.
+          With us, you can build the solution you need for success.
         </li>
         <li>
           <i class="ri-check-double-line"></i>
-          Innovate for continuous value creation.
+          Intelligent, automated, and agile applications.
+        </li>
+        <li>
+          <i class="ri-check-double-line"></i>
+          Best-of-breed solutions for faster ROI.
+        </li>
+        <li>
+          <i class="ri-check-double-line"></i>
+          Industry-leading advisory and business expertise.
+        </li>
+        <li>
+          <i class="ri-check-double-line"></i>
+          Deep industry, domain, and contextual knowledge.
+        </li>
+        <li>
+          <i class="ri-check-double-line"></i>
+          Rich expertise to transform application landscapes at scale.
         </li>
       </ul>
     </div>
   );
 }
 
-export default Trainings;
+export default EndToEndSolutions;

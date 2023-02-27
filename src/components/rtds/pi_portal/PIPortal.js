@@ -6,7 +6,7 @@ import "../Sidebar/sidebar.css";
 function PIPortal() {
   return (
     <div class=" onlyTopPadding">
-      <div class=" main-container">
+      <div class="main-container">
         <div>
           <SideBar />
         </div>

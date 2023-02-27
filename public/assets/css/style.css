@@ -1074,8 +1074,11 @@ h6 {
 }
 
 #rtdshome .img-fluid2 {
-  max-width: 90%;
+  max-width: 70%;
   height: auto;
+  left: 650px;
+  position: absolute;
+  top: -120px;
 }
 
 #rtdshome .imgMonitoring {
@@ -1320,104 +1323,299 @@ h6 {
 }
 
 /*-------------
+# ServicesCards
+------*/
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@900&display=swap");
+.servicesCards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f5fa;
+  min-width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border-radius: 20px; */
+  font-family: "Montserrat";
+  height: 100vh;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 24px;
+  max-width: 1200px;
+  width: 100%;
+  /* margin: 0 21px 0 21px; */
+}
+
+.cardsS {
+  position: relative;
+  list-style: none;
+  border-radius: 20px;
+  height: 280px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.cardServicesBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  border-radius: 20px;
+  background-position: center;
+  filter: brightness(0.75) saturate(1, 2) contrast(0.85);
+  transform: scale(1), translateZ(0);
+  transform-origin: center;
+  transition: filter 200ms linear, transform 200ms linear;
+}
+
+.cardsS:hover .cardServicesBackground {
+  transform: scale(1.05) translateZ(0);
+}
+
+.card-grid:hover > .cardsS:not(:hover) .cardServicesBackground {
+  filter: brightness(0.5) blur(5px);
+  /* filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px); */
+  /* for black and white anc complete blur */
+}
+
+.cardsContent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 24px;
+}
+
+.cardsContent .cardsCategory {
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.cardsContent .cardsHeading {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.9rem;
+  line-height: 1.4;
+  letter-spacing: 0.2vw;
+  /* word-spacing: 100vw; */
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 960px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .card-grid {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+  }
+}
+
+/*-------------
+# RT Services
+------*/
+@import url("https://fonts.googleapis.com.css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+.RTservicesCards {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border-radius: 20px; */
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ebf5fc;
+  /* min-width: 100%; */
+  min-height: 100vh;
+}
+
+.RTcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.RTcontainer .RTcard {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+    5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.RTcontainer .RTcard .RTbox {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #ebf5fc;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.RTcontainer .RTcard:hover .RTbox {
+  transform: translateY(-50px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(45deg, #b95ce4, #4f29cd);
+}
+
+.RTcontainer .RTcard .RTbox .RTcontent {
+  padding: 20px;
+  text-align: center;
+}
+
+.RTcontainer .RTcard .RTbox .RTcontent h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8em;
+  color: rgba(0, 0, 0, 0.02);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.RTcontainer .RTcard:hover .RTbox .RTcontent h2 {
+  color: rgba(0, 0, 0, 0.05);
+}
+
+.RTcontainer .RTcard .RTbox .RTcontent h3 {
+  font-size: 1.8rem;
+  color: #777;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.RTcontainer .RTcard .RTbox .RTcontent p {
+  font-size: 1em;
+  font-weight: 300;
+  color: #777;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.RTcontainer .RTcard:hover .RTbox .RTcontent h3,
+.RTcontainer .RTcard:hover .RTbox .RTcontent p {
+  color: #fff;
+}
+
+.RTcontainer .RTcard .RTbox .RTcontent a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #03a9f4;
+  margin-top: 15px;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.RTcontainer .RTcard:hover .RTbox .RTcontent a {
+  background: #ff568f;
+}
+
+/*-------------
 # RTDS BG Animate
 ------*/
 
 * {
   margin: 0;
-
   padding: 0;
-
   box-sizing: border-box;
 }
 
 #bgAnimate {
   min-height: 100vh;
-
-  background: #0c192c;
+  background: #37517e;
 }
 
 #bgAnimate .container {
   position: relative;
-
   width: 100%;
-
   height: 100vh;
-
   overflow: hidden;
 }
 
 #bgAnimate .bubbles {
   position: relative;
-
   display: flex;
 }
 
-#bgAnimate .bubbles span {
-  position: relative;
-
-  width: 30px;
-
+#bgAnimate .bubbles .rtdsBGImg {
   height: 30px;
+  width: 30px;
+  opacity: 0.4;
+  /* filter: alpha(opacity=60); */
+  animation: animateRTBGImg 15s linear infinite;
+  animation-duration: calc(125s / var(--i));
+}
 
+#bgAnimate .bubbles .rtdsBGImg:nth-child(even) {
+  /* background: #ff2d75; */
+  /* box-shadow: 0 0 0 10px #ff2d7544, 0 0 50px #ff2d75, 0 0 100px #ff2d75; */
+}
+
+/* #bgAnimate .bubbles span {
+  position: relative;
+  width: 30px;
+  height: 30px;
   background: #4fc3dc;
-
   margin: 0 4px;
-
   border-radius: 50%;
-
   box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
-
-  animation: animate 15s linear infinite;
-
+  animation: animateRTBGImg 15s linear infinite;
   animation-duration: calc(125s / var(--i));
 }
 
 #bgAnimate .bubbles span:nth-child(even) {
   background: #ff2d75;
-
   box-shadow: 0 0 0 10px #ff2d7544, 0 0 50px #ff2d75, 0 0 100px #ff2d75;
-}
+} */
 
 /* #bgAnimate .bubbles img{
-
   position: relative;
-
   width: 30px;
-
   height: 30px;
-
   background: #4fc3dc;
-
   margin: 0 4px;
-
   border-radius: 50%;
-
   box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
-
   animation: animate 15s linear infinite;
-
   animation-duration: calc(125s/var(--i) );
-
 }
 
 
 
 #bgAnimate .bubbles img:nth-child(even)
-
 {
-
   background: #ff2d75;
-
   box-shadow: 0 0 0 10px #ff2d7544, 0 0 50px #ff2d75, 0 0 100px #ff2d75;
-
-
-
 } */
 
-@keyframes animate {
+@keyframes animateRTBGImg {
   0% {
-    transform: translateY(100vh) scale(0);
+    transform: translateY(100vh) scale(0.5);
   }
 
   100% {
@@ -1572,6 +1770,45 @@ section {
 
 .services2 .justGap {
   margin-top: 48px;
+}
+
+.services2 .sevicesPageImg1 {
+  width: 100%;
+}
+
+.services2 .heading1 {
+  font-size: 2.5rem;
+  color: #0c3c53;
+}
+
+.services2 .heading2 {
+  font-size: 2.5rem;
+  color: #0c3c53;
+}
+
+.services2 .btn-get-started {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  /* width: 100%; */
+  letter-spacing: 2.5px;
+  display: inline-flex;
+  /* text-shadow: #0c3c53;
+  text-align: center; */
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 40px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+  /* align-items: center;
+  align-self: center; */
+}
+
+@media (min-width: 1200px) {
+  .services2 .heading1 {
+    font-size: 4.5rem;
+  }
 }
 
 .services3 .justGap {

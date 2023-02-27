@@ -29,99 +29,26 @@ function DashboardRTDS() {
                 <span>Take a Tour</span>
               </a>
             </div>
+
+            {/* <div
+              class="col-lg-6 order-1 order-lg-2 home-img"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              {" "}
+              <img
+                src="assets/img/rtd_assets/business-salesman.gif"
+                class="img-fluid2 animated"
+                alt=""
+              />
+            </div> */}
           </div>
           {/* <video class="videoTag underVideo" autoPlay loop muted>
             <source src={"/assets/videos/bg_video.mp4"} type="video/mp4" />
           </video> */}
 
-          <section id="bgAnimate" class="bgAnimate">
-            <div class="container">
-              <div class="bubbles">
-                <span style={{ "--i": "11" }}></span>
-
-                <span style={{ "--i": "12" }}></span>
-
-                <span style={{ "--i": "24" }}></span>
-
-                <span style={{ "--i": "10" }}></span>
-
-                <span style={{ "--i": "14" }}></span>
-
-                <span style={{ "--i": "23" }}></span>
-
-                <span style={{ "--i": "18" }}></span>
-
-                <span style={{ "--i": "16" }}></span>
-
-                <span style={{ "--i": "19" }}></span>
-
-                <span style={{ "--i": "20" }}></span>
-
-                <span style={{ "--i": "22" }}></span>
-
-                <span style={{ "--i": "25" }}></span>
-
-                <span style={{ "--i": "18" }}></span>
-
-                <span style={{ "--i": "21" }}></span>
-
-                <span style={{ "--i": "15" }}></span>
-
-                <span style={{ "--i": "13" }}></span>
-
-                <span style={{ "--i": "26" }}></span>
-
-                <span style={{ "--i": "17" }}></span>
-
-                <span style={{ "--i": "13" }}></span>
-
-                <span style={{ "--i": "28" }}></span>
-
-                <span style={{ "--i": "11" }}></span>
-
-                <span style={{ "--i": "12" }}></span>
-
-                <span style={{ "--i": "24" }}></span>
-
-                <span style={{ "--i": "10" }}></span>
-
-                <span style={{ "--i": "14" }}></span>
-
-                <span style={{ "--i": "23" }}></span>
-
-                <span style={{ "--i": "18" }}></span>
-
-                <span style={{ "--i": "16" }}></span>
-
-                <span style={{ "--i": "19" }}></span>
-
-                <span style={{ "--i": "20" }}></span>
-
-                <span style={{ "--i": "22" }}></span>
-
-                <span style={{ "--i": "25" }}></span>
-
-                <span style={{ "--i": "18" }}></span>
-
-                <span style={{ "--i": "21" }}></span>
-
-                <span style={{ "--i": "15" }}></span>
-
-                <span style={{ "--i": "13" }}></span>
-
-                <span style={{ "--i": "26" }}></span>
-
-                <span style={{ "--i": "17" }}></span>
-
-                <span style={{ "--i": "13" }}></span>
-
-                <span style={{ "--i": "28" }}></span>
-              </div>
-            </div>
-          </section>
-
-          {/* <div
-            class="col-lg-6 order-1 order-lg-2 home-img"
+          <div
+            class="col-lg-6  overVideo order-1 order-lg-2 home-img"
             data-aos="zoom-in"
             data-aos-delay="200"
           >
@@ -131,7 +58,302 @@ function DashboardRTDS() {
               class="img-fluid2 animated"
               alt=""
             />
-          </div> */}
+          </div>
+
+          <section id="bgAnimate" class="bgAnimate">
+            <div class="container">
+              <div class="bubbles">
+                <img
+                  style={{ "--i": "11" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "12" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "24" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "10" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "14" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "23" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "18" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "16" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "19" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "20" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "22" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "25" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "21" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "18" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "15" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "13" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "26" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "17" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "13" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "28" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "11" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "12" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "24" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "10" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "14" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "23" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "18" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "16" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "19" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "20" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "22" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "25" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "21" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "18" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "15" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "13" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "26" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "17" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "13" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/clock.png"
+                ></img>
+
+                <img
+                  style={{ "--i": "28" }}
+                  class="rtdsBGImg"
+                  src="assets/img/rtd_assets/database.png"
+                ></img>
+              </div>
+            </div>
+          </section>
+
+          {/* 
+          <section id="bgAnimate" class="bgAnimate">
+            <div class="container">
+              <div class="bubbles">
+                <span style={{ "--i": "11" }}></span>
+                <span style={{ "--i": "12" }}></span>
+                <span style={{ "--i": "24" }}></span>
+                <span style={{ "--i": "10" }}></span>
+                <span style={{ "--i": "14" }}></span>
+                <span style={{ "--i": "23" }}></span>
+                <span style={{ "--i": "18" }}></span>
+                <span style={{ "--i": "16" }}></span>
+                <span style={{ "--i": "19" }}></span>
+                <span style={{ "--i": "20" }}></span>
+                <span style={{ "--i": "22" }}></span>
+                <span style={{ "--i": "25" }}></span>
+                <span style={{ "--i": "18" }}></span>
+                <span style={{ "--i": "21" }}></span>
+                <span style={{ "--i": "15" }}></span>
+                <span style={{ "--i": "13" }}></span>
+                <span style={{ "--i": "26" }}></span>
+                <span style={{ "--i": "17" }}></span>
+                <span style={{ "--i": "13" }}></span>
+                <span style={{ "--i": "28" }}></span>
+
+                <span style={{ "--i": "11" }}></span>
+                <span style={{ "--i": "12" }}></span>
+                <span style={{ "--i": "24" }}></span>
+                <span style={{ "--i": "10" }}></span>
+                <span style={{ "--i": "14" }}></span>
+                <span style={{ "--i": "23" }}></span>
+                <span style={{ "--i": "18" }}></span>
+                <span style={{ "--i": "16" }}></span>
+                <span style={{ "--i": "19" }}></span>
+                <span style={{ "--i": "20" }}></span>
+                <span style={{ "--i": "22" }}></span>
+                <span style={{ "--i": "25" }}></span>
+                <span style={{ "--i": "18" }}></span>
+                <span style={{ "--i": "21" }}></span>
+                <span style={{ "--i": "15" }}></span>
+                <span style={{ "--i": "13" }}></span>
+                <span style={{ "--i": "26" }}></span>
+                <span style={{ "--i": "17" }}></span>
+                <span style={{ "--i": "13" }}></span>
+                <span style={{ "--i": "28" }}></span>
+              </div>
+            </div>
+          </section> */}
 
           {/* <div class="services section-bg">
             <div class="container" data-aos="fade-up">

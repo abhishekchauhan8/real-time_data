@@ -123,6 +123,8 @@ import Consultancy from "./components/rtds/Consultancy";
 import Trainings from "./components/rtds/Trainings";
 import PIPortal from "./components/rtds/pi_portal/PIPortal";
 import Honeywell from "./components/rtds/honeywell";
+import EndToEndSolutions from "./components/rtds/EndToEndSolutions";
+import Consultancy2 from "./components/rtds/Consultancy2";
 
 function App() {
   return (
@@ -133,19 +135,24 @@ function App() {
 
         <Route path="/rtd-coe" exact element={<ServicesMain />} />
 
-        <Route path="/rtd-coe/services-diy" exact element={<DIY />} />
+        <Route path="/rtd-coe-services-diy" exact element={<DIY />} />
         <Route
-          path="/rtd-coe/services-ready_made_solutions"
+          path="/rtd-coe-services-readymadesolutions"
           exact
           element={<ReadyMadeSolutions />}
         />
         <Route
-          path="/rtd-coe/services-consultancy"
+          path="/rtd-coe-services-consultancy"
           exact
           element={<Consultancy />}
         />
         <Route
-          path="/rtd-coe/services-trainings"
+          path="/rtd-coe-services-endtoendsolutions"
+          exact
+          element={<EndToEndSolutions />}
+        />
+        <Route
+          path="/rtd-coe-services-trainings"
           exact
           element={<Trainings />}
         />

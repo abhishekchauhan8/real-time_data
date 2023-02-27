@@ -16,6 +16,8 @@ import DashboardRTD from "./DashboardRTD";
 import Skills from "./Skills";
 import LOB from "./LOB";
 import Header from "../Header";
+import ServicesCards from "./services_cards";
+import RTServices from "./rt_services";
 
 function RTDMain() {
   return (
@@ -25,9 +27,12 @@ function RTDMain() {
       <main id="main">
         <LOB />
 
+        <ServicesCards />
+        <RTServices />
         <AboutRTDCC />
 
         <RTDCC />
+
         {/* <Skills /> */}
         <TeamRTD />
       </main>

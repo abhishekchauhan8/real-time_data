@@ -26,6 +26,7 @@ function ServicesMain() {
       <Pricing />
       <AboutPIServices_Framework />
       <AboutPIServices_Journey />
+
       <Team />
       {/* <FAQs /> */}
       <Contact />
